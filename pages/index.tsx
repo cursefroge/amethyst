@@ -3,10 +3,12 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import PricingRadio from "../components/PricingRadio";
 import LoginBtn from "../components/LoginBtn";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Navbar />
       <PricingRadio />
       <LoginBtn />
       <Head>
